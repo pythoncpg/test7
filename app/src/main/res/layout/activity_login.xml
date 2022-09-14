@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/view_dimen_300"
+    android:layout_marginLeft="@dimen/main_padding_60">
+    <TextView
+        android:id="@+id/tv_login_info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录您的小米账号"
+        android:textColor="@color/headline"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/main_padding_20"
+        android:background="@drawable/icon_user" />
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/tv_login_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首次登录会自动创建小米账号"
+        android:layout_marginTop="@dimen/main_padding_5"
+        android:textColor="#66000000"
+        android:textSize="18sp"
+        android:layout_marginLeft="@dimen/main_padding_60"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入您的账号"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/main_padding_50"
+        android:layout_marginLeft="@dimen/main_padding_60"/>
+    <EditText
+        android:id="@+id/tv_user_account"
+        android:background="@drawable/bg_bt_login_gray"
+        android:layout_marginTop="@dimen/view_dimen_30"
+        android:layout_marginRight="@dimen/main_padding_60"
+        android:layout_marginLeft="@dimen/main_padding_60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/view_dimen_20"
+        android:paddingBottom="@dimen/view_dimen_20"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:hint="小米账号"
+        android:clickable="true"
+        android:paddingLeft="@dimen/view_dimen_60"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入您的账号密码"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/main_padding_50"
+        android:layout_marginLeft="@dimen/main_padding_60"/>
+    <EditText
+        android:id="@+id/tv_user_password"
+        android:background="@drawable/bg_bt_login_gray"
+        android:layout_marginTop="@dimen/view_dimen_30"
+        android:layout_marginLeft="@dimen/main_padding_60"
+        android:layout_marginRight="@dimen/main_padding_60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/view_dimen_20"
+        android:paddingBottom="@dimen/view_dimen_20"
+        android:textSize="20sp"
+        android:hint="账号密码"
+        android:textColor="#000000"
+        android:paddingLeft="@dimen/view_dimen_70"
+        android:clickable="true"
+        />
+    <LinearLayout
+        android:layout_marginLeft="@dimen/main_padding_60"
+        android:layout_marginRight="@dimen/main_padding_60"
+        android:layout_marginTop="@dimen/main_padding_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bt_login_orange"
+            android:text="登录"
+            android:layout_marginRight="@dimen/main_padding_60"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/tv_resetPassword"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_bt_login_gray"
+            android:text="忘记密码"
+            android:layout_marginRight="@dimen/main_padding_60"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="#F2A154"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

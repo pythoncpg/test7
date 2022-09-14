@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/drawable/bg_bt_login_gray.xml" value="0.1235" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/drawable/bg_bt_login_orange.xml" value="0.1235" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/drawable/bg_publish_tv_publish.xml" value="0.1235" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/drawable/bg_round_square_light_gray.xml" value="0.1235" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/drawable/bg_toast.xml" value="0.2605" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.154" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/activity_login.xml" value="0.2140625" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/activity_publish.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/activity_reset_password.xml" value="0.225" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/bg_round_square_light_gray.xml" value="0.1125" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/item_picture.xml" value="0.11041666666666666" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/test.xml" value="0.26277372262773724" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/layout/view_my_toast.xml" value="0.2140625" />
+        <entry key="..\:/AndroidTool/AndroidProject/problemTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.154" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
